@@ -15,4 +15,21 @@ func main() {
 
 	fmt.Println(name)
 	fmt.Println(age)
+
+	// Mutiples variables inline
+
+	// defaul
+	// var firstName, lastName, country string
+
+	// explicit
+	// var firstName, lastName, country string = "Luciano", "Reguera", "Argentina"
+	// fmt.Println(firstName, lastName, country)
+
+	// implicit
+	// = type
+	firstName, lastName, country := "Luciano", "Reguera", "Argentina"
+	fmt.Println(firstName, lastName, country)
+	// != type
+	zip, profession := 4707, "Desarrollador Web"
+	fmt.Println(zip, profession)
 }
