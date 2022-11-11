@@ -21,6 +21,6 @@ func main() {
 
 	fmt.Println(course, length)
 	fmt.Println(firstChar)                 // ASCII 67 = C
-	fmt.Println(reflect.TypeOf(firstChar)) // ASCII 67 = C
+	fmt.Println(reflect.TypeOf(firstChar)) // uint8
 	fmt.Printf("%c\n", firstChar)          // C
 }
