@@ -36,7 +36,7 @@ func main() {
 	fmt.Printf("La longitud es: %v. La capacidad es: %v\n", length, capacity)
 
 	// make function -> create slice
-	slice := make([]int, 3, 3) // type, len, cap
+	slice := make([]int, 3, 3) // type, len, capcd
 
 	fmt.Println(slice)
 	fmt.Println(len(slice))
