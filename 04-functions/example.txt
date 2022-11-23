@@ -1,0 +1,2 @@
+Hola, nos encontramos dentro de un archivo txt
+Hola, bienvenidos a las defer functions de go
